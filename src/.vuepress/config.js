@@ -158,9 +158,9 @@ module.exports = {
     // Comments config. See the [Posts Comments] section below.
     comments: {
       owner: 'captainAldi',
-      repo: 'blog',
+      repo: 'captainAldi.github.io',
       clientId: 'ccb25d7b151174423efa',
-      clientSecret: 'd7bb3fba75c4a689e818e15f8488f6c3101d9125',
+      clientSecret: 'de898af1b28af3a8be9c2ec4e21bbb33c1531486',
     },
 
     // Pagination config (Optional)
