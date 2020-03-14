@@ -2,7 +2,6 @@
 
 module.exports = {
   // Base
-  base: '/blog/',
 
   // Title of your website
   title: 'Aldi Blog',
@@ -28,7 +27,7 @@ module.exports = {
     // Personal infomation (delete the fields if you don't have / don't want to display)
     personalInfo: {
       // Nickname
-      nickname: 'aldi',
+      nickname: 'Aldi',
 
       // Introduction of yourself (HTML supported)
       description: 'Happy Coding<br/>Happy Life',
@@ -95,6 +94,17 @@ module.exports = {
       },
     },
 
+    head: [
+      [
+        "script",
+        {
+          "data-ad-client": "ca-pub-6631243362768566",
+          async: true,
+          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+        }
+      ]
+    ],
+
     // Header Config (Optional)
     header: {
       // The background of the header. You can choose to use an image, or to use random pattern (geopattern)
@@ -147,7 +157,7 @@ module.exports = {
 
     // Comments config. See the [Posts Comments] section below.
     comments: {
-      owner: 'captainaldi',
+      owner: 'captainAldi',
       repo: 'blog',
       clientId: 'ccb25d7b151174423efa',
       clientSecret: 'd7bb3fba75c4a689e818e15f8488f6c3101d9125',
