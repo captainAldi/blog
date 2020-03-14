@@ -1,6 +1,9 @@
 // .vuepress/config.js
 
 module.exports = {
+  // Base
+  base: '/blog/',
+
   // Title of your website
   title: 'Aldi Blog',
 
