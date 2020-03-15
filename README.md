@@ -1,9 +1,3 @@
----
-layout: AboutLayout
-title: About
-aside: true
----
-
 # What it is ?
 
 My Personal Blog

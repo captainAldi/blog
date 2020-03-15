@@ -1,7 +1,7 @@
 // .vuepress/config.js
 
 module.exports = {
-  // Base
+  
 
   // Title of your website
   title: 'Aldi Blog',
@@ -15,6 +15,19 @@ module.exports = {
       lang: 'en-US',
     },
   },
+
+  //head
+  head: [
+    [
+      "script",
+      {
+        "data-ad-client": "ca-pub-6631243362768566",
+        async: true,
+        src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+      }
+    ],
+    ['link', { rel: 'icon', href: 'https://i.ibb.co/rpy4dNP/icon.png' }]
+  ],
 
   // Theme to use
   theme: 'meteorlxy',
@@ -44,7 +57,6 @@ module.exports = {
       // Your avatar image
       // Set to external link
       avatar: 'https://i.ibb.co/2Fw8d39/web-programming.png',
-      // <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
       // Or put into `.vuepress/public` directory. E.g. `.vuepress/public/img/avatar.jpg`
       // avatar: '/img/avatar.jpg',
 
@@ -93,17 +105,6 @@ module.exports = {
         },
       },
     },
-
-    head: [
-      [
-        "script",
-        {
-          "data-ad-client": "ca-pub-6631243362768566",
-          async: true,
-          src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-        }
-      ]
-    ],
 
     // Header Config (Optional)
     header: {

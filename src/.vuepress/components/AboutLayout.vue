@@ -3,7 +3,7 @@
   <div class="custom-layout">
     <!-- .main-div is the block with white background -->
     <div class="main-div">
-      About
+      <h1>About</h1>
     </div>
 
     <div class="main-div">
