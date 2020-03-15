@@ -23,4 +23,8 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 git push -f https://github.com/captainaldi/blog.git master
 
+cd ..
+
+rm -rf dist/
+
 cd -
